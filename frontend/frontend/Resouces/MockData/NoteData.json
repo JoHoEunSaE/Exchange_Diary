@@ -1,0 +1,23 @@
+{
+   "noteId": 1,
+   "title": "삶과 죽음에 관하여...",
+   "content": "삶은 계란이다. 죽음은 치킨이다.",
+   "author": {
+       "authorId": 1,
+       "authorName": "홍길동"
+       
+   },
+   "imageList": [
+        {
+            "imageIndex": 1,
+            "imageDataUrl": "https://image1"
+            
+        },
+    ],
+   "createdAt": "2023-08-03T04:57:15.294Z",
+   "updatedAt": "2023-08-03T04:57:15.294Z",
+   "likeCount": 1,
+   "visibleScope": "PUBLIC",
+   "liked": true,
+   "bookmarked": true
+ }

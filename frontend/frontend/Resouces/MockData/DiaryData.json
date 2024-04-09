@@ -1,0 +1,24 @@
+[
+  {
+    "diaryId": 1,
+    "title": "제목1",
+    "groupName": "그룹명1",
+    "imageData": "https://source.unsplash.com/user/c_v_r",
+    "coverType": "IMAGE"
+  },
+ {
+   "diaryId": 3,
+   "title": "제목3",
+   "groupName": "그룹명3",
+   "imageData": "#4274c9",
+   "coverType": "COLOR"
+ },
+ {
+   "diaryId": 6,
+   "title": "제목5",
+   "groupName": "그룹명5",
+   "imageData": "https://source.unsplash.com/user/c_v_r",
+   "coverType": "IMAGE"
+ },
+ 
+]

@@ -1,0 +1,114 @@
+spring:
+  jwt:
+    key: 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+  config:
+    activate:
+      on-profile: test
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        globally_quoted_identifiers: true
+  redis:
+    host: localhost
+    port: 6379
+  images:
+    cloudfront-domain: https://example.com
+    path:
+      profile: profile-images/
+      diary-cover: diary-covers/
+      note: note-images/
+
+oauth:
+  apple:
+    iss: test-iss
+    client-id: test-client-id
+    bundle-id: test-bundle-id
+    service-id: test-service-id
+    key-id: test-key-id
+    team-id: test-team-id
+    key-path: test-key-path
+    id-url: https://appleid.apple.com
+    jwt:
+      alg: ES256
+  
+  kakao:
+    iss: test-iss
+    client-id: test-client-id
+    native-app-key: native-app-key
+
+  google:
+    iss: test-iss
+    client-id: test-client-id
+
+  naver:
+    iss: test-iss
+    client-id: test-client-id
+    client-secret: test-client-secret
+
+cloud:
+  aws:
+    s3:
+      bucket: test-bucket-name
+    credentials:
+      access-key: test-access-key
+      secret-key: test-secret-key
+    region:
+      static: ap-northeast-2 # TODO: 이 값에 테스트가 의존적임. 컨텍스트를 따로 구성하는 것에 대해 고민해보자.
+    stack:
+      auto: false
+    sqs:
+      queue:
+        name: test-queue-name
+        url: test-queue-url
+        message-delay-seconds: 1
+feign:
+  client:
+    config:
+      apple-public-key-client:
+        connectTimeout: 5000
+        readTimeout: 3000
+
+# Cache Configuration
+# expire-after-write의 단위: Sec
+cache:
+  caffeine:
+    type: Caffeine
+    caches:
+      - name: DiaryInvitationCode
+        expire-after-write: 600 # 10분
+        maximum-size: 1000
+
+      - name: AppleOauthPublicKeyCache
+        expire-after-write: 2592000 # 1개월
+        maximum-size: 1
+
+      - name: GoogleOauthPublicKeyCache
+        expire-after-write: 2592000 # 1개월
+        maximum-size: 1
+
+      - name: KakaoOauthPublicKeyCache
+        expire-after-write: 2592000 # 1개월
+        maximum-size: 1
+
+swagger:
+  base-url: http://localhost:8080
+
+discord:
+  webhook:
+    url:
+
+redirect-url:
+  guide: https://example.com/aaaa
+  terms: https://example.com/bbbb
+  privacy: https://example.com/cccc
+  open-source-license: https://example.com/dddd

@@ -1,0 +1,6 @@
+[submodule "backend/BackendConfig"]
+	path = backend/BackendConfig
+	url = git@github.com:JoHoEunSaE/BackendConfig.git
+[submodule "frontend/FrontendConfig"]
+	path = frontend/FrontendConfig
+	url = git@github.com:JoHoEunSaE/FrontendConfig.git

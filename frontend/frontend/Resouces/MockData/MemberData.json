@@ -1,0 +1,23 @@
+{
+  "result": [
+    {
+      "memberId": 1,
+      "nickname": "동글동글동그리",
+      "profileImageUrl": "https://hws.dev/paul.jpg",
+      "following": true
+    },
+    {
+      "memberId": 3,
+      "nickname": "그리그리동그리",
+      "profileImageUrl": "https://hws.dev/paul.jpg",
+      "following": false
+    },
+    {
+      "memberId": 4,
+      "nickname": "도리도리동그리",
+      "profileImageUrl": "https://hws.dev/paul.jpg",
+      "following": true
+    }
+  ],
+  "totalLength": 3
+}

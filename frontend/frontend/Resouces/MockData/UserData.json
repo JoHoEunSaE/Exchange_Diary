@@ -1,0 +1,10 @@
+[
+    {
+      "nickname": "johoeunsae",
+      "statement": "조훈세",
+      "profileImageUrl": "http://localhost:8080/v1/members/johoeunsae/profile/image",
+      "followerCount": 10,
+      "followingCount": 10,
+      "isFollowing": true
+    }
+]

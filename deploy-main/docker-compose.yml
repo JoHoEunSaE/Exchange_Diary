@@ -1,0 +1,38 @@
+version: "3.6"
+
+services:
+  diary-main:
+    image: public.ecr.aws/y1h8l9n2/diary-server-main:latest
+    restart: always
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: "diary-application"
+    ports:
+      - "8080:8080"
+    volumes:
+      - $HOME/logs/:/logs/
+      - $HOME/server-config/main/resources:/resources/
+      - $HOME/deploy/zip/sh:/sh
+    networks:
+      - diary
+
+  diary-redis:
+    image: redis:latest
+    restart: always
+    container_name: "diary-redis"
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      timeout: 20s
+      retries: 10
+    networks:
+      - diary
+
+networks:
+  diary:
+    driver: bridge
+
+volumes:
+  mariadb-data:
