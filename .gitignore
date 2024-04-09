@@ -92,18 +92,6 @@ iOSInjectionProject/
 
 ### Xcode ###
 
-## Xcode 8 and earlier
-
-### Xcode Patch ###
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-!*.xcworkspace/contents.xcworkspacedata
-/*.gcno
-!*.xcbkptlist
-**/xcshareddata/WorkspaceSettings.xcsettings
-
 .idea
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,xcode
