@@ -63,7 +63,7 @@ public class ExceptionController {
 		errors.put("errorReason", e.getMessage());
 		errors.put("timestamp", LocalDateTime.now());
 		return ResponseEntity
-				.status(HttpStatus.FORBIDDEN)
+				.status(HttpStatus.UNAUTHORIZED)
 				.body(errors);
 	}
 
