@@ -12,7 +12,6 @@ import org.johoeunsae.exchangediary.auth.jwt.excpetion.JwtAuthenticationTokenExc
 import org.johoeunsae.exchangediary.auth.oauth2.domain.UserSessionAuthenticationToken;
 import org.johoeunsae.exchangediary.auth.oauth2.domain.UserSessionDto;
 import org.johoeunsae.exchangediary.member.domain.MemberRole;
-import org.springframework.http.HttpHeaders;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.Transient;
 import org.springframework.security.core.context.SecurityContext;
@@ -29,8 +28,6 @@ public class UserSessionAuthenticationFilter extends OncePerRequestFilter {
 	protected void doFilterInternal(HttpServletRequest request,
 			HttpServletResponse response, FilterChain filterChain)
 			throws ServletException, IOException {
-		log.info("request Referer: " + request.getHeader(HttpHeaders.REFERER));
-
 		SecurityContext context = SecurityContextHolder.getContext();
 		Authentication authentication = context.getAuthentication();
 		if (authentication == null) {

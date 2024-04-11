@@ -14,6 +14,7 @@ import org.johoeunsae.exchangediary.exception.status.ValidationExceptionStatusRe
 import org.johoeunsae.exchangediary.exception.utils.DiscordWebhookErrorHandler;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -25,6 +26,7 @@ import org.springframework.web.multipart.MaxUploadSizeExceededException;
 @RestControllerAdvice
 @RequiredArgsConstructor
 public class ExceptionController {
+
 	private final ValidationExceptionStatusResolver validationExceptionStatusResolver;
 	private final DiscordWebhookErrorHandler discordWebhookErrorHandler;
 
@@ -51,6 +53,18 @@ public class ExceptionController {
 		return ResponseEntity
 				.status(e.getErrorReason().getStatusCode())
 				.body(e.getErrorReason());
+	}
+
+	@ExceptionHandler(AccessDeniedException.class)
+	public ResponseEntity<?> handleAccessDeniedException(AccessDeniedException e) {
+		e.printStackTrace();
+		Map<String, Object> errors = new HashMap<>();
+		errors.put("success", false);
+		errors.put("errorReason", e.getMessage());
+		errors.put("timestamp", LocalDateTime.now());
+		return ResponseEntity
+				.status(HttpStatus.FORBIDDEN)
+				.body(errors);
 	}
 
 	@ExceptionHandler({
