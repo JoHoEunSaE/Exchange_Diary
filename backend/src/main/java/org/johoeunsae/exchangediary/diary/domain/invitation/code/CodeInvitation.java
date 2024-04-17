@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 public class CodeInvitation implements Invitation {
 
 	private static final int DEFAULT_CODE_LENGTH = 6;
-	private static final int DEFAULT_DURATION_MINUTES = 10;
+	private static final int DEFAULT_DURATION_MINUTES = 180;
 	public static final Duration DEFAULT_DURATION = Duration.ofMinutes(DEFAULT_DURATION_MINUTES);
 
 	private final Long diaryId;
@@ -39,7 +39,8 @@ public class CodeInvitation implements Invitation {
 		this.expiredAt = createdAt.plus(duration);
 	}
 
-	private CodeInvitation(Long diaryId, LocalDateTime createdAt, LocalDateTime expiredAt, String value) {
+	private CodeInvitation(Long diaryId, LocalDateTime createdAt, LocalDateTime expiredAt,
+			String value) {
 		this.diaryId = diaryId;
 		this.createdAt = createdAt;
 		this.expiredAt = expiredAt;
