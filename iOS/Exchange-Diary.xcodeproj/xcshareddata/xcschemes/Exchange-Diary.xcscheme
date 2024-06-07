@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0E7BC07529D82032007C241A"
-               BuildableName = "frontend.app"
-               BlueprintName = "frontend"
-               ReferencedContainer = "container:frontend.xcodeproj">
+               BuildableName = "Exchange-Diary.app"
+               BlueprintName = "Exchange-Diary"
+               ReferencedContainer = "container:Exchange-Diary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0E7BC07529D82032007C241A"
-            BuildableName = "frontend.app"
-            BlueprintName = "frontend"
-            ReferencedContainer = "container:frontend.xcodeproj">
+            BuildableName = "Exchange-Diary.app"
+            BlueprintName = "Exchange-Diary"
+            ReferencedContainer = "container:Exchange-Diary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0E7BC07529D82032007C241A"
-            BuildableName = "frontend.app"
-            BlueprintName = "frontend"
-            ReferencedContainer = "container:frontend.xcodeproj">
+            BuildableName = "Exchange-Diary.app"
+            BlueprintName = "Exchange-Diary"
+            ReferencedContainer = "container:Exchange-Diary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

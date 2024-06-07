@@ -1,5 +1,5 @@
 //
-//  frontendApp.swift
+//  exchangeDiaryApp.swift
 //  frontend
 //
 //  Created by Katherine JANG on 4/1/23.
