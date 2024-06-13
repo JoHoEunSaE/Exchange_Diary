@@ -15,7 +15,7 @@ import GoogleSignIn
 import Security
 
 @main
-struct Exchange-DiaryApp: App {
+struct ExchangeDiaryApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDeleegate
     let persistenceController = PersistenceController.shared
     let kakaoAppKey = Bundle.main.infoDictionary?["KAKAO_APPKEY"] as? String ?? "WrongKey"
