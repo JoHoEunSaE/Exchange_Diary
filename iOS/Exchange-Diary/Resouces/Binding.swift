@@ -1,6 +1,6 @@
 //
 //  Binding.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 10/18/23.
 //

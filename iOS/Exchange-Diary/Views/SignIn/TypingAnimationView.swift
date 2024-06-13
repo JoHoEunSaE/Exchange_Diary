@@ -1,6 +1,6 @@
 //
 //  TypingTextView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 신인호 on 1/12/24.
 //

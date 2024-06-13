@@ -1,6 +1,6 @@
 //
 //  NoticeModel.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 8/1/23.
 //

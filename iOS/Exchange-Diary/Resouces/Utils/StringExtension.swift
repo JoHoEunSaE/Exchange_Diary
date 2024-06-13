@@ -1,6 +1,6 @@
 //
 //  StringExtension.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 김나연 on 2/1/24.
 //

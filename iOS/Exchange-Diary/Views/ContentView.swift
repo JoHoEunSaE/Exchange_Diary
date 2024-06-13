@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 4/1/23.
 //

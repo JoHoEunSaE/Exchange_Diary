@@ -1,6 +1,6 @@
 //
 //  CreateNoteView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 6/26/23.
 //

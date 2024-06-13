@@ -1,6 +1,6 @@
 //
 //  DiaryListManager.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 김나연 on 1/6/24.
 //

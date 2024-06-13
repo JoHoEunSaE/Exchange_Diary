@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 4/1/23.
 //
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "frontend")
+        container = NSPersistentContainer(name: "Exchange-Diary")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

@@ -1,6 +1,6 @@
 //
 //  SignInView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 5/17/23.
 //

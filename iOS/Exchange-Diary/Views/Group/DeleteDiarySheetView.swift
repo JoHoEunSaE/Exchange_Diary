@@ -1,6 +1,6 @@
 //
 //  DeleteDiaryView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 12/29/23.
 //

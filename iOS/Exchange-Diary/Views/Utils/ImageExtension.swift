@@ -1,6 +1,6 @@
 //
 //  ImageExtension.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 7/23/23.
 //

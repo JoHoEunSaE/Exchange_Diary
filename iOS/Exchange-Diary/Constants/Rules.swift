@@ -1,6 +1,6 @@
 //
 //  ValidationRule.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 신인호 on 1/16/24.
 //

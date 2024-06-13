@@ -1,6 +1,6 @@
 //
 //  AddDiaryButtonView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 신인호 on 2023/06/10.
 //

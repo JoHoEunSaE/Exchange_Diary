@@ -1,6 +1,6 @@
 //
 //  APIRequest.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 9/6/23.
 //

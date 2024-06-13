@@ -1,6 +1,6 @@
 //
 //  ProfileMainView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 6/19/23.
 //

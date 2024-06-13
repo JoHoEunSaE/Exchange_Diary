@@ -1,6 +1,6 @@
 //
 //  BottomSheetDetentsExtension.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 7/11/23.
 //
