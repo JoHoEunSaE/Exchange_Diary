@@ -1,6 +1,6 @@
 //
 //  CustomTextStyles.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 신인호 on 12/8/23.
 //

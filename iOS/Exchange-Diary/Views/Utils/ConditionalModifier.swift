@@ -1,6 +1,6 @@
 //
 //  ConditionalModifier.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 2/24/24.
 //

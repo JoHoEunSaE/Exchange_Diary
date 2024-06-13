@@ -1,6 +1,6 @@
 //
 //  TermsAndPoliciesView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 3/29/24.
 //

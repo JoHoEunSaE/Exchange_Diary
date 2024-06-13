@@ -1,6 +1,6 @@
 //
 //  OverlayModifier.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 2/11/24.
 //

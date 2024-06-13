@@ -1,6 +1,6 @@
 //
 //  CommonButton.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 신인호 on 2023/09/05.
 //

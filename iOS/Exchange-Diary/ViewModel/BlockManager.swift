@@ -1,6 +1,6 @@
 //
 //  BlockManager.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 김나연 on 1/21/24.
 //

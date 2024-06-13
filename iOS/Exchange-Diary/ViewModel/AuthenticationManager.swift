@@ -1,6 +1,6 @@
 //
 //  AuthenticationManager.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 11/21/23.
 //

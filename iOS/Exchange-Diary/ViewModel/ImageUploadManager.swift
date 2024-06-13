@@ -1,6 +1,6 @@
 //
 //  ImageManager.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 11/19/23.
 //

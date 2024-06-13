@@ -1,6 +1,6 @@
 ////
 ////  MockDataController.swift
-////  frontend
+////  Exchange-Diary
 ////
 ////  Created by Katherine JANG on 8/2/23.
 ////

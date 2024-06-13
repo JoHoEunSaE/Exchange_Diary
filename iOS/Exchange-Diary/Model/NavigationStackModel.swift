@@ -1,6 +1,6 @@
 //
 //  NavigationStackModel.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 11/24/23.
 //

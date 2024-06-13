@@ -1,6 +1,6 @@
 //
 //  ProfileView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 신인호 on 10/31/23.
 //

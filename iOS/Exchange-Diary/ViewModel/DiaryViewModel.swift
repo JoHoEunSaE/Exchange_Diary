@@ -1,6 +1,6 @@
 //
 //  DiaryViewModel.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 11/28/23.
 //

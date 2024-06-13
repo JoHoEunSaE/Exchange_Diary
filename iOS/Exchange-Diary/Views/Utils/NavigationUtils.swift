@@ -1,6 +1,6 @@
 //
 //  NavigationUtils.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 2/15/24.
 //

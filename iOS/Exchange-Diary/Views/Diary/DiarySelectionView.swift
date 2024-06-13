@@ -1,6 +1,6 @@
 //
 //  DiarySelectionView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 김나연 on 1/9/24.
 //

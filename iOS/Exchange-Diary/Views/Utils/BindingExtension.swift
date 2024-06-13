@@ -1,6 +1,6 @@
 //
 //  BindingExtension.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 신인호 on 10/22/23.
 //

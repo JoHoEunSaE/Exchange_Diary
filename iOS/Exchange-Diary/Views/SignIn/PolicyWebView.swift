@@ -1,6 +1,6 @@
 //
 //  PolicyWebView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 3/31/24.
 //

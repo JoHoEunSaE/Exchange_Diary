@@ -1,6 +1,6 @@
 //
 //  NoteInformationTextView.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by 김나연 on 3/28/24.
 //

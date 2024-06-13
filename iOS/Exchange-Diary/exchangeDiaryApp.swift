@@ -1,6 +1,6 @@
 //
 //  exchangeDiaryApp.swift
-//  frontend
+//  Exchange-Diary
 //
 //  Created by Katherine JANG on 4/1/23.
 //
@@ -15,7 +15,7 @@ import GoogleSignIn
 import Security
 
 @main
-struct frontendApp: App {
+struct Exchange-DiaryApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDeleegate
     let persistenceController = PersistenceController.shared
     let kakaoAppKey = Bundle.main.infoDictionary?["KAKAO_APPKEY"] as? String ?? "WrongKey"
